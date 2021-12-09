@@ -8,4 +8,57 @@ body{
     margin: 0;
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif; 
+    background: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    letter-spacing: 5px;    
+}
+
+
+/* Loader */
+
+.loader{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background: rgba(255 , 255 , 255 , 0.8)
+}
+
+.loader img {
+    position: fixed;
+    top: 50%;
+    left: 50% ;
+    transform: translate(-50% , -50%);
+}
+
+
+/* Contenedor de imagenes*/
+
+.contenedor-imagen{
+    margin: 10px 30%;    
+}
+
+.contenedor-imagen img {
+    width:100%;
+    margin-top: 5px;
+
+}
+
+
+/*  Media query para pantallas de smarthphone*/
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 15px;
+    }
+    .contenedor-imagen{
+        margin: 10px;
+    }
+
 }
